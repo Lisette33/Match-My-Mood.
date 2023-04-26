@@ -1,0 +1,43 @@
+.header {
+  background: #191414;
+  height: 120px;
+  display: flex;
+}
+
+.header h1 {
+  margin: 0;
+  padding-top: 30px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+.logo {
+  max-height: 100px;
+  display: flex;
+  padding-top: 25px;
+}
+
+@media (max-width: 600px){
+  .header h1 {
+    font-size: 2rem;
+    padding-top: 10px;
+  }
+
+  .navbar-one ul ol {
+    margin-right: 10px;
+    flex-direction: column; 
+  }
+
+  .header {
+    flex-direction: row;
+    height: auto; 
+  }
+
+  .logo {
+    padding-top: 10px; 
+  }
+}
+
+
+
